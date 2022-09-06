@@ -15,7 +15,13 @@
 
 using namespace std;
 
+class Student
+{
+private:
+    int a;
+public:
 
+};
 void SetColor(int text, int bg)
 {
     HANDLE hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -40,7 +46,6 @@ int main()
     //    {delete[]FirstName;}
     //    FirstName = new char[strlen(fn) + 1];
     //    strcpy_s(FirstName, strlen(fn) + 1, fn);}
-
 
 
 

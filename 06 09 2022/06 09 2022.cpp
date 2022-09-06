@@ -15,12 +15,12 @@
 
 using namespace std;
 
-class Student
+class Point
 {
 private:
     int a;
 public:
-    Student()
+    Point()
     {
         a = {};
     }
@@ -51,7 +51,7 @@ int main()
     //    strcpy_s(FirstName, strlen(fn) + 1, fn);}
 
 
-
+    Point one;
 
 
 

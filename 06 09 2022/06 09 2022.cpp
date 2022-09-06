@@ -15,12 +15,12 @@
 
 using namespace std;
 
-class Student
+class Point
 {
 private:
     int a;
 public:
-    Student()
+    Point()
     {
         a = {};
     }

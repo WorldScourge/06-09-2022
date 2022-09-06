@@ -24,9 +24,13 @@ public:
     {
         a = {};
     }
-    Init()
+    void Init()
     {
         a = 3;
+    }
+    void Print()
+    {
+        cout << a << endl;
     }
 };
 void SetColor(int text, int bg)
@@ -58,6 +62,7 @@ int main()
     Student one;
     cout << "Тут ничего нет!!!" << endl;
     one.Init();
+    one.Print();
 
 
 

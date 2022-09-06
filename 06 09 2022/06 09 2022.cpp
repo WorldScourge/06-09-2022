@@ -59,8 +59,8 @@ int main()
     //    strcpy_s(FirstName, strlen(fn) + 1, fn);}
 
 
-    Student one;
-    cout << "Тут ничего нет!!!" << endl;
+    Point one;
+    cout << "Слияние завершено успешно, всё работает!" << endl;
     one.Init();
     one.Print();
 

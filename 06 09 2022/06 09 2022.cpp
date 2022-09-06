@@ -24,7 +24,10 @@ public:
     {
         a = {};
     }
-
+    Init()
+    {
+        a = 3;
+    }
 };
 void SetColor(int text, int bg)
 {
@@ -52,10 +55,9 @@ int main()
     //    strcpy_s(FirstName, strlen(fn) + 1, fn);}
 
 
-
+    Student one;
     cout << "Тут ничего нет!!!" << endl;
-
-
+    one.Init();
 
 
 

@@ -20,7 +20,10 @@ class Student
 private:
     int a;
 public:
-
+    Student()
+    {
+        a = {};
+    }
 };
 void SetColor(int text, int bg)
 {

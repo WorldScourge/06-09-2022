@@ -24,6 +24,10 @@ public:
     {
         a = {};
     }
+    void Init()
+    {
+        a = 5;
+    }
 };
 void SetColor(int text, int bg)
 {
@@ -53,7 +57,7 @@ int main()
 
     Point one;
 
-
+    one.Init();
 
 
 

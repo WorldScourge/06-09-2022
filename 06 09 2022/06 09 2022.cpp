@@ -24,6 +24,7 @@ public:
     {
         a = {};
     }
+
 };
 void SetColor(int text, int bg)
 {
@@ -52,7 +53,7 @@ int main()
 
 
 
-
+    cout << "Тут ничего нет!!!" << endl;
 
 
 
